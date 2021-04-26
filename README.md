@@ -50,4 +50,4 @@ In this project I've learnt a looot of about econometric and statistical analysi
 Maciej Odziemczyk
 
 ## Notes
-This is my first really big analysis in Python and I wanted it to be part of my Master Thesis, so I've tried very hard this analysis to be as good as possible. When I spent more time at WNE I realized that it is not enough for me.
+This is my first really big analysis in Python and I wanted it to be a part of my Master Thesis, so I've tried very hard this analysis to be as good as possible. When I spent more time at WNE I realized that it is not enough for me.
