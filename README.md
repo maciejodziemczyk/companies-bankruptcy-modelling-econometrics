@@ -23,7 +23,7 @@ Research hypothesis were as follows:
 2. Company has negative impact on its bankruptcy probability
 3. Adding Altman Z-score variable to the model reduces economics misclassification cost
 
-To verify the 1st hypothesis confusion matrces were calculated and cutoff was adjusted. ROC curves were drawed (in and out of sample) and its integrals were computed. To verify the 2nd hypothesis marginal effects were computed and interpreted. 3rd hypothesis was verified bia bootstrap simulation.
+To verify the 1st hypothesis confusion matrces were calculated and cutoff was adjusted. ROC curves were drawed (in and out of sample) and its integrals were computed. To verify the 2nd hypothesis marginal effects were computed and interpreted. 3rd hypothesis was verified via bootstrap simulation.
 
 Findings:
  * financial statements data are hard to deal with, lots of missings and outliers
