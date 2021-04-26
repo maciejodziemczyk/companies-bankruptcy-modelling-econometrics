@@ -12,7 +12,7 @@ The main objective of this project was to model Polish companies bankruptcy prob
 * feature engineering (some needed ratios were not present in the original dataset, fortunately it could be obtained by combining and transforming others)
 * sample balance check
 * outliers reduction (huge impact on models stability, deleting improper obsevrations based on the expert analysis)
-* mean equality between bankrupt and non bankrupt companies for each variable to gain some intuition about data and variable significance
+* mean equality between bankrupt and non bankrupt companies for each variable to gain some intuition about data and variables significance
 * spearman correlation and scatter plots to detect redundant variables and prevent incomplete rank of the observation matrix (model may be unstable if not carried out)
 * Variance Inflation Factor to detect redundant variables too
 
