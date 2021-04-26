@@ -18,5 +18,15 @@ The main objective of this project was to model Polish companies bankruptcy prob
 
 After analysis discrete choice models were considered (logistic regression, probit regression and linear probability model (project requirement)). Probit was selected for further analysis based on information criteria and statistical tests (F test). Next General to Specyfic procedure was performed (project requirement). Next step was to perform model diagnostics - functional form - linktest what causes creating new variables. After that godness of fit was checked using counted R^2, adjusted counted R^2 and R^2 McKelvey&Zavoina.
 
-Research goals and hypotesis were as follows:
-1. Try to develop a good predictive model for polish market ($P(y=0|\hat{y}=0)>0.95 and P(y)$)
+Research hypothesis were as follows:
+1. It is possible to develop a good predictive model for polish market (P(y=0|y_hat=0)>0.95 and P(y=1|y_hat=1)>0.35)
+2. Company has negative impact on its bankruptcy probability
+3. Adding Altman Z-score variable to the model reduces economics missclasification cost
+
+To verify the 1st hypothesis confusion matrces were calculated and cutoff was adjusted. ROC curves were drawed (in and out of sample) and its integrals were computed. To verify the 2nd hypothesis marginal effects were computed and interpreted. 3rd hypothesis was verified bia bootstrap simulation.
+
+Findings:
+ * financial statements data are hard to deal with, lots of missings and outliers
+ * developed model met the requirements (1st hypothesis)
+ * company size has negative impact on its bankruptcy probability (Too big to fail slogan seems to be true)
+ * adding Z-score to the model can help with economics missclasification costs of the model but it is dependend from reasercher preferences
