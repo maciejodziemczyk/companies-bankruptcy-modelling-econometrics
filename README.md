@@ -21,7 +21,7 @@ After analysis discrete choice models were considered (logistic regression, prob
 Research hypothesis were as follows:
 1. It is possible to develop a good predictive model for polish market (P(y=0|y_hat=0)>0.95 and P(y=1|y_hat=1)>0.35)
 2. Company has negative impact on its bankruptcy probability
-3. Adding Altman Z-score variable to the model reduces economics missclasification cost
+3. Adding Altman Z-score variable to the model reduces economics misclassification cost
 
 To verify the 1st hypothesis confusion matrces were calculated and cutoff was adjusted. ROC curves were drawed (in and out of sample) and its integrals were computed. To verify the 2nd hypothesis marginal effects were computed and interpreted. 3rd hypothesis was verified bia bootstrap simulation.
 
@@ -29,4 +29,6 @@ Findings:
  * financial statements data are hard to deal with, lots of missings and outliers
  * developed model met the requirements (1st hypothesis)
  * company size has negative impact on its bankruptcy probability (Too big to fail slogan seems to be true)
- * adding Z-score to the model can help with economics missclasification costs of the model but it is dependend from reasercher preferences
+ * adding Z-score to the model can help with economics misclassification costs of the model but it is dependend from reasercher preferences
+
+In this project I've learnt a looot of about econometric and statistical analysis, discrete choice models and statistical inference. I've also improve my Python programming and problem solving skills, I have to implement some statistical tests, diagnostics tools from scratch with python functions which was a lot of fun. There were no software requirements, but I've choosen Python because I really like it and want to learn as much as possiblme for Data Science and more (we could use STATA for example what is easy path to perform econometrics modelling).
