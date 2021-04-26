@@ -31,4 +31,23 @@ Findings:
  * company size has negative impact on its bankruptcy probability (Too big to fail slogan seems to be true)
  * adding Z-score to the model can help with economics misclassification costs of the model but it is dependend from reasercher preferences
 
-In this project I've learnt a looot of about econometric and statistical analysis, discrete choice models and statistical inference. I've also improve my Python programming and problem solving skills, I have to implement some statistical tests, diagnostics tools from scratch with python functions which was a lot of fun. There were no software requirements, but I've choosen Python because I really like it and want to learn as much as possiblme for Data Science and more (we could use STATA for example what is easy path to perform econometrics modelling).
+In this project I've learnt a looot of about econometric and statistical analysis, discrete choice models and statistical inference. I also improved my Python programming and problem solving skills, I had to implement some statistical tests, diagnostics tools from scratch with python functions which was a lot of fun. What is more I've learnt some LaTeX for report/paper writing (no more word-written assignments) and how to find, read and understand research papers in english (10 papers included in literature review). I There were no software requirements, but I've choosen Python because I really like it and want to learn as much as possiblme for Data Science and more (we could use STATA for example what is easy path to perform econometrics modelling). I wrote in my report that further works will be about developing much more complex models for this problem and I kept that promise (machine learning projects including Master Thesis). I really enjoyed this problem.
+
+## Repository description
+ * Jak skuteczne jest sprawozdanie finansowe w przewidywaniu bankructwa firmy Kod zrodlowy.pdf - source code in pdf format, Python
+ * Jak skuteczne jest sprawozdanie finansowe w przewidywaniu bankructwa firmy Kod zrodlowy.py - source code in py script format, Python
+ * Jak skuteczne jest sprawozdanie finansowe w przewidywaniu bankructwa firmy. Notatnik.ipynb - Jupyter Notebook with analysis, Python
+ * Jak skuteczne jest sprawozdanie finansowe w przewidywaniu bankructwa firmy.pdf - paper-style project report in pdf format 
+ * Raport z pętli bootstrapowej.pdf - bootstrap loop report in pdf format
+ * bootstrap.pkl - pickled bootstrap results, ready to load into environment 
+
+## Technologies
+ * Python (numpy, pandas, matplotlib.pyplot, scipy, statsmodels, patsy)
+ * Jupyter Notebook
+ * LaTeX (overleaf cloud environment)
+
+## Author
+Maciej Odziemczyk
+
+## Notes
+This is my first really big analysis in Python and I wanted it to be part of my Master Thesis, so I've tried very hard this analysis to be as good as possible. When I spent more time at WNE I realized that it is not enough for me.
