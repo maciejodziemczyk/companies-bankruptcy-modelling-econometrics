@@ -7,7 +7,7 @@ Language:
 Semester: II (MA studies)
 
 ## About
-The main objective of this project was to model Polish companies bankruptcy probability - binary classification task with statistical inference. The data was found on UCL machine learning repository and contains information about bankruptcy status and financial ratios in 5 task (differentiated by the forecasting horizon). In this project 1 year forecast horizon was choosen. Variables was selected by literature review (10 papers in total). Data analysis was a big part of the project and contais such components as:
+The main objective of this project was to model Polish companies bankruptcy probability - binary classification task with statistical inference. The data was found on UCL machine learning repository and contains information about bankruptcy status and financial ratios in 5 task (differentiated by the forecasting horizon). In this project 1 year forecast horizon was choosen. Variables was selected based on literature review (10 papers in total). Data analysis was a big part of the project and contais such components as:
 * handling missing values (categorical variable coded if there is a missing or not or observations deleting)
 * feature engineering (some needed ratios were not present in the original dataset, fortunately it could be obtained by combining and transforming others),
 * sample balance check
