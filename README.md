@@ -16,7 +16,7 @@ The main objective of this project was to model Polish companies bankruptcy prob
 * spearman correlation matrix and scatter plots to detect redundant variables and prevent incomplete rank of the observation matrix (model may be unstable if not carried out)
 * Variance Inflation Factor to detect redundant variables too
 
-After analysis discrete choice models were considered (logistic regression, probit regression and linear probability model (project requirement)). Probit was selected for further analysis based on information criteria and statistical tests (F test). Next General to Specyfic procedure was performed (project requirement). Next step was to perform model diagnostics - functional form - linktest what causes creating new variables. After that godness of fit was checked using counted R^2, adjusted counted R^2 and R^2 McKelvey&Zavoina.
+After analysis discrete choice models were considered (logistic regression, probit regression and linear probability model (project requirement)). Probit was selected for further analysis based on information criteria and statistical tests (F test). Next General to Specyfic procedure was performed (project requirement). Next step was to perform model diagnostics - functional form - linktest which showed the need to create new variables. After that godness of fit was checked using counted R^2, adjusted counted R^2 and R^2 McKelvey&Zavoina.
 
 Research hypothesis were as follows:
 1. It is possible to develop a good predictive model for polish market (P(y=0|y_hat=0)>0.95 and P(y=1|y_hat=1)>0.35)
