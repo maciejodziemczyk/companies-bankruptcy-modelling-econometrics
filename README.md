@@ -34,8 +34,6 @@ Findings:
 In this project I've learnt a looot of about econometric and statistical analysis, discrete choice models and statistical inference. I also improved my Python programming and problem solving skills, I had to implement some statistical tests, diagnostics tools from scratch with Python functions which was a lot of fun. What is more I've learnt some LaTeX for reports/papers writing (no more Word-written assignments) and how to find, read and understand research papers in english (10 papers included in literature review). There were no software requirements, but I've choosen Python because I really like it and want to learn as much as possible for Data Science and more (we could use STATA for example what is easy path to perform econometrics modelling). I wrote in my report that further works will be focused on much more complex models development for this problem and I kept that promise (machine learning projects including Master Thesis). I really enjoyed this problem.
 
 ## Repository description
- * Jak skuteczne jest sprawozdanie finansowe w przewidywaniu bankructwa firmy Kod zrodlowy.pdf - source code in pdf format (project requirement), Python 
- * Jak skuteczne jest sprawozdanie finansowe w przewidywaniu bankructwa firmy Kod zrodlowy.py - source code in py script format (project requirement), Python
  * Jak skuteczne jest sprawozdanie finansowe w przewidywaniu bankructwa firmy. Notatnik.ipynb - Jupyter Notebook with analysis, Python
  * Jak skuteczne jest sprawozdanie finansowe w przewidywaniu bankructwa firmy.pdf - paper-style project report in pdf format 
  * Raport z pętli bootstrapowej.pdf - bootstrap loop report in pdf format
