@@ -2,7 +2,7 @@
 Project created for *Advanced Econometrics I* (org. *Zaawansowana Ekonometria I*) classes at WNE UW
 
 Language: 
- * Polish - classes, report and code comments
+ * Polish - classes, report and notebook
 
 Semester: II (MA studies)
 
