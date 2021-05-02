@@ -1,4 +1,4 @@
-# Companies bankruptcy modelling with econometrics methods
+# Companies bankruptcy modelling with econometric methods
 Project created for *Advanced Econometrics I* (org. *Zaawansowana Ekonometria I*) classes at WNE UW
 
 Language: 
